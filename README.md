@@ -1,2 +1,2 @@
 # canvas-lesson-1
-Посмотреть <a href="https://github.com/ONESucH/canvas-lesson-1/settings">Demo</a>
+Посмотреть <a href="https://onesuch.github.io/canvas-lesson-1/">Demo</a>
