@@ -1,5 +1,4 @@
 window.onload = function() {
-   console.log('Загрузились');
    var canvas = document.createElement('canvas'),
        blade = canvas.getContext('2d');
 
@@ -9,7 +8,7 @@ window.onload = function() {
     blade.width = window.innerWidth;
     blade.height = window.innerHeight;
 
-    blade.fillStyle  = '#000000';
+    blade.fillStyle  = '#000';
     blade.fillRect(0, 0, canvas.width, canvas.height);
 
     document.body.appendChild(canvas);
@@ -22,7 +21,6 @@ function colorChange(data) {
 
     data.width = window.innerWidth / 2;
     data.height = window.innerHeight / 2;
-    console.log('Вошли во 2-ую функцию', data);
     setInterval(function () {
         var randomColors = Math.floor(Math.random() * (arrColors.length)),
             randomJumpWidth = Math.floor(Math.random() * window.innerWidth),
